@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/simulate-iter-dirac-comb",
+  "version": "0.0.0",
+  "description": "Create an iterator which generates a Dirac comb.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/simulate-iter-dirac-comb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "simulate",
+    "simulation",
+    "dirac",
+    "comb",
+    "pulse",
+    "train",
+    "shah",
+    "distribution",
+    "dsp",
+    "wave",
+    "signal",
+    "processing",
+    "waveform",
+    "periodic",
+    "iterator",
+    "iterate",
+    "iteration",
+    "iter"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
