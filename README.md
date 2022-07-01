@@ -49,32 +49,30 @@ where `δ` is the Dirac delta function, `T` is the period, and `φ` is the phase
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/simulate-iter-dirac-comb
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-iterDiracComb = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-dirac-comb@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-dirac-comb@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.iterDiracComb;
-})();
-</script>
+var iterDiracComb = require( '@stdlib/simulate-iter-dirac-comb' );
 ```
 
 #### iterDiracComb( \[options] )
@@ -237,13 +235,8 @@ var bool = it.next().done;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-dirac-comb@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var iterDiracComb = require( '@stdlib/simulate-iter-dirac-comb' );
 
 // Create an iterator:
 var opts = {
@@ -262,11 +255,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -360,12 +348,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/deno
 [umd-url]: https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/umd
 [esm-url]: https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/esm
+[branches-url]: https://github.com/stdlib-js/simulate-iter-dirac-comb/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/simulate-iter-dirac-comb/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse/tree/umd
+[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse
 
 <!-- </related-links> -->
 
