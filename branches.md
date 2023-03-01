@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/simulate/iter/dirac-comb"
-click B href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/main"
-click C href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/production"
-click D href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/esm"
-click E href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/deno"
-click F href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/simulate/iter/dirac-comb"
+%% click B href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/main"
+%% click C href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/production"
+%% click D href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/esm"
+%% click E href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/deno"
+%% click F href "https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/simulate/iter/dirac-comb
