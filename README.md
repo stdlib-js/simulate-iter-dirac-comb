@@ -32,10 +32,14 @@ A Dirac comb is represented by the following equation
 
 <!-- <equation class="equation" label="eq:dirac_comb" align="center" raw="f(t; T, \varphi) = \delta((t-\varphi) \bmod T)" alt="Equation for a Dirac comb."> -->
 
-<div class="equation" align="center" data-raw-text="f(t; T, \varphi) = \delta((t-\varphi) \bmod T)" data-equation="eq:dirac_comb">
+```math
+f(t; T, \varphi) = \delta((t-\varphi) \bmod T)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="f(t; T, \varphi) = \delta((t-\varphi) \bmod T)" data-equation="eq:dirac_comb">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@801be3f8c35f2e79fbcf9b6e38568479f6faa5f2/lib/node_modules/@stdlib/simulate/iter/dirac-comb/docs/img/equation_dirac_comb.svg" alt="Equation for a Dirac comb.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -336,7 +340,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
