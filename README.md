@@ -71,6 +71,11 @@ where `δ` is the Dirac delta function, `T` is the period, and `φ` is the phase
 ## Usage
 
 ```javascript
+import iterDiracComb from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-dirac-comb@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/simulate-iter-dirac-comb/tags). For example,
+
+```javascript
 import iterDiracComb from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-dirac-comb@v0.2.0-deno/mod.js';
 ```
 
@@ -235,7 +240,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterDiracComb from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-dirac-comb@v0.2.0-deno/mod.js';
+import iterDiracComb from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-dirac-comb@deno/mod.js';
 
 // Create an iterator:
 var opts = {
