@@ -1,7 +1,0 @@
-"use strict";var s=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var l=s(function(F,d){
-var P=require('@stdlib/assert-is-plain-object/dist'),f=require('@stdlib/assert-has-own-property/dist'),w=require('@stdlib/assert-is-integer/dist').isPrimitive,x=require('@stdlib/assert-is-positive-integer/dist').isPrimitive,h=require('@stdlib/assert-is-nonnegative-integer/dist').isPrimitive,n=require('@stdlib/error-tools-fmtprodmsg/dist');function E(r,e){return P(e)?f(e,"period")&&(r.period=e.period,!x(e.period))?new TypeError(n('0tH8N',"period",e.period)):f(e,"offset")&&(r.offset=e.offset,!w(e.offset))?new TypeError(n('0tH8M',"offset",e.offset)):f(e,"iter")&&(r.iter=e.iter,!h(e.iter))?new TypeError(n('0tH2t',"iter",e.iter)):null:new TypeError(n('0tH2V',e));}d.exports=E
-});var c=s(function(C,g){
-var o=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),p=require('@stdlib/symbol-iterator/dist'),I=require('@stdlib/constants-float64-pinf/dist'),T=l();function m(r){var e,t,v,a,i,u;if(e={period:10,offset:0,iter:1e308},arguments.length&&(a=T(e,r),a))throw a;return i=(e.period-e.offset)%e.period,i<0&&(i+=e.period),i-=1,u=0,t={},o(t,"next",q),o(t,"return",b),p&&o(t,p,y),t;function q(){return u+=1,v||u>e.iter?{done:!0}:(i+=1,i%=e.period,{value:i===0?I:0,done:!1})}function b(O){return v=!0,arguments.length?{value:O,done:!0}:{done:!0}}function y(){return m(e)}}g.exports=m
-});var N=c();module.exports=N;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
